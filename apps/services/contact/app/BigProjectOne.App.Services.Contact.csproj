@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../../../libraries/Data/DB/BigProjectOne.Libraries.Data.DB.csproj"/>
+    <ProjectReference Include="../../../../libraries/Models/Interfaces/BigProjectOne.Libraries.Models.Interfaces.csproj"/>
+    <ProjectReference Include="../../../../libraries/Models/Business/Contact/BigProjectOne.Libraries.Models.Business.Contact.csproj"/>
+    <ProjectReference Include="../../../../libraries/Models/Technical/Tenant/BigProjectOne.Libraries.Models.Technical.Tenant.csproj"/>
+  </ItemGroup>
+
+</Project>
+  
